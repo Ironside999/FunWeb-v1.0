@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+
+.header{
+  
+}
+
+.nav_bar{
+    height: 150px;
+    width: 1300px;
+    background-color: rgb(71, 71, 71);
+    margin-left: 27px;
+    margin-top: -18px;
+
+
+}
+
+
+
+
+
+
+
+#login_signup{
+    float: right;
+    margin-top: 0;
+    margin-right: 45px;
+    color: white;
+}
+
+.box-login{
+    background-color: rgb(20, 20, 20);
+    height: 40px;
+    width: 200px;
+    margin-right: 70px;
+    border-radius: 4px;
+}
+
+
+
+#searchbar{
+    float: right;
+    margin-top: 60px;
+    margin-right: -220px;
+}
+
+#search_box{
+    width: 300px;
+    height: 25px;
+}
+
+#search_icon{
+    float: right;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+#name{
+    float: left;
+    margin-left: 60px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+
+.box-name{
+    background-color: rgb(20, 20, 20);
+    height: 80px;
+    width: 230px;
+    margin-left: 90px;
+    border-radius: 4px;
+}
+
+
+
+
+.menu_bar{
+    height: 75px;
+    width: 1300px;
+    background-color: rgb(24, 24, 24);
+    margin-top: -17px;
+    margin-left: 27px;
+}
+
+.entire{
+
+}
+
+.menu{
+    float: none;
+    padding-top: 10px;
+}
+
+#menu ul{
+}
+
+.menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 80px;  
+    padding: 25px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li:hover{
+    background-color: tomato;
+    padding-top: -20px;
+}
+
+#image1{
+    margin-left: 27px;
+    border-top: 3px;
+    border-bottom: 3px;
+}
+
+
+
+
+
+
+.main_content{
+    width: 1300px;
+    margin-left: 27px;
+    margin-top: -23px;
+}
+
+
+
+
+
+
+.top_main-content{
+    height: 530px;
+    background-color: rgb(230, 230, 230);
+    padding-top: 30px;
+}
+
+.script{
+    margin-left: 100px;
+}
+
+.top_main-content hr{
+    width: 1100px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.botton-box{
+    background-color: rgb(20, 20, 20);
+    border-radius: 3px;
+    padding: 2px 5px 5px 5px;
+    margin-top: 30px;
+
+}
+
+.botton-box a{
+    color: white;
+    text-decoration: none;
+}
+
+/*.banners{
+    border-right: 1px solid black;                               اینجا چطوری بوردر هارو یکم ببرن اونور تر
+}
+*/
+
+.botton-box a:hover{
+    color: orangered;
+}
+
+
+
+#hr1{
+    border-top: -50px;
+}
+
+.main1{
+    float: left;
+}
+
+.botton_main_content{
+    margin-left: 27px;
+}
+
+.main_side{
+    margin-left: 70px;
+}
+
+/*.main2{
+    float: left;
+}*/
+
+
+.main_side{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main2-content{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#text{
+    margin-left: 20px;
+}
+
+
+.right_side{
+    float: right;
+}
+
+.botton_main_content{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.upside{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.up-content{
+    margin-left: 100px;
+}
+
+.right_side{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.upside{
+    margin-top: 35px;
+}
+
+.up-content{
+    border: 1px solid black;
+    padding: 8px 8px 8px 8px;
+}
+
+.downside{
+    margin-left: 110px;
+}
+
+.num1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+
+.num2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border: 1px solid black;
+
+}
+
+.num3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border: 1px solid black;
+
+}
+
+.num4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border: 1px solid black;
+
+}
+
+.p1{
+    margin-left: 20px;
+}
+
+.p2{
+    margin-left: 20px;
+}
+
+.p3{
+    margin-left: 20px;
+}
+
+.p4{
+    margin-left: 20px;
+}
+
+.fas{
+    float: right;
+    margin-right: 2px;
+}
+
+.both{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.txt1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: xx-large;
+}
+
+.txt2{
+    margin-left: 30px;
+    color: white;
+    margin-top: 33px;
+}
+
+
+.footer{
+    width: 1300px;
+    height: 80px;
+    background-color: rgb(20, 20, 20);
+    margin-left: 27px;
+}
+
+
+
+
+.foot{
+    float: right;
+    margin-right: 200px;
+    margin-top: -15px;
+    color: white;
+}
+
+.app{
+    float: right;
+    color: white;
+    margin-right: -155px;
+    margin-top: -13px;
+}
+
